@@ -1,0 +1,17 @@
+name: HardcoreDeath
+main: com.github.hardcoredeath.HardcoreDeath
+version: 1.0.0
+api-version: 1.21
+description: Deletes player inventory on death in configured worlds
+commands:
+  hardcoredeath:
+    description: HardcoreDeath commands
+    usage: "/<command> reload"
+    permission: hardcoredeath.use
+permissions:
+  hardcoredeath.use:
+    description: Allows using the hardcoredeath command
+    default: op
+  hardcoredeath.reload:
+    description: Allows reloading the HardcoreDeath config
+    default: op

@@ -1,0 +1,6 @@
+# List the world names where HardcoreDeath should be active
+# Example:
+# enabled-worlds:
+#  - world
+#  - world_nether
+enabled-worlds: []
